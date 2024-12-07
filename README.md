@@ -27,7 +27,7 @@ A multi-threaded port scanner written in C designed for optimal performance. Thi
 
 ## Usage
 ```bash
-./portscanner IP [START_PORT] [END_PORT]
+./portscan IP [START_PORT] [END_PORT]
 ```
 - `IP`: The target IPv4 address to scan.
 - `START_PORT`: The starting port number (default is 1).
@@ -35,7 +35,7 @@ A multi-threaded port scanner written in C designed for optimal performance. Thi
 
 ### Example
 ```bash
-./portscanner 192.168.1.1 80 100
+./portscan 192.168.1.1 80 100
 ```
 Scans ports 80 to 100 on the IP address 192.168.1.1.
 
